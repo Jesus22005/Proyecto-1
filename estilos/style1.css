@@ -1,0 +1,1007 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    margin: 20px;   
+}
+
+ol{
+    margin: 20px;
+}
+
+
+
+
+html{
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+header {
+    width: 100%;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    
+    
+}
+
+header nav{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    background-color: blanchedalmond;
+    padding-left: 150px;
+}
+
+header nav .barra{
+    display: flex;
+    justify-content: end;
+    height: auto;
+    width: 100%;
+    
+    margin: 0 auto;
+}
+
+header nav .barra ul{
+    width: 100%;
+    list-style: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-top: 10px;
+    padding-right: 100px;
+    padding-left: 120px;
+    height: 100%; 
+}
+
+
+header nav .barra a{
+    text-decoration: none;
+    font-size: 35px;
+    color: black;
+    margin: 30px;
+    
+
+}
+
+header nav .barra a:hover{
+    border-bottom: 2px solid blue;
+}
+
+header nav .logo{
+    background-color: blanchedalmond;
+    position: absolute;
+    width: 350px;
+    height: 30s0px;
+    justify-content: start;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 62px;
+    color: blue;
+    left:  calc(50% - 620px);
+    padding-left: 40px;
+    top: 60px;
+    border-radius: 5%;
+    
+}
+
+
+header nav .logo:hover{
+    box-shadow: 0px 4px 8px rgb(110, 110, 110);
+}
+
+
+
+header .fondo{
+    display: flex;
+    align-items: flex-start;
+    justify-content: start;
+    padding-left: 150px;
+    width: 100%;
+    height: 700px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-top: 10px solid blue;
+    background-image: url('https://learn.g2.com/hubfs/web_developer.jpg')
+    
+}
+
+header .fondo1{
+    display: flex;
+    align-items: flex-start;
+    justify-content: start;
+    padding-left: 150px;
+    width: 100%;
+    height: 700px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-top: 10px solid blue;
+    background-image: url('https://www.callmed.net/wp-content/uploads/2020/08/call-center-en-hospitales.jpg')
+    
+}
+
+
+header .fondo2{
+    display: flex;
+    align-items: flex-start;
+    justify-content: start;
+    padding-left: 150px;
+    width: 100%;
+    height: 700px;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: 100%;
+    background-color: blue;
+    border-top: 10px solid blue;
+    background-image: url('https://tec.mx/sites/default/files/styles/header_wide/public/2018-07/ReunionProfesores-conecta-1920x1080-1_0.jpg?itok=Vv-wLHYZ')
+    
+}
+
+header .fondo3{
+    display: flex;
+    align-items: flex-start;
+    justify-content: start;
+    padding-left: 150px;
+    width: 100%;
+    height: 700px;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: 100%;
+    background-color: blue;
+    border-top: 10px solid blue;
+    background-image: url('https://letscoder.com/static/landing-top-9652fe54e0d216b709b870bf1d411545.png')
+    
+}
+
+
+
+
+main{
+    width: 100%;
+    height: 700px;
+    position: absolute;
+    background-color: blanchedalmond;
+    position: relative;
+    border-top: 10px solid blue;
+    
+}
+
+main .fechas-curso{
+    background-color: blanchedalmond;
+    position: relative;
+    bottom: 80px;
+    left: calc(50% - 180px);
+    width: 350px;
+    height: 150px;
+    text-align: center;
+    padding-top: 10px;
+    border-radius: 5px;
+    color: blue;
+    font-size: 28px;
+    
+}
+
+main .fechas-curso_contacto{
+    background-color: blanchedalmond;
+    position: relative;
+    bottom: 80px;
+    left: calc(50% - 180px); 
+    width: 350px;
+    height: 90px;
+    text-align: center;
+    padding-top: 10px;
+    border-radius: 5px;
+    color: blue;
+    font-size: 28px;
+}
+
+main .fechas-curso_mentores{
+    background-color: blanchedalmond;
+    position: relative;
+    bottom: 80px;
+    left: calc(50% - 180px); 
+    width: 350px;
+    height: 90px;
+    text-align: center;
+    padding-top: 10px;
+    border-radius: 5px;
+    color: blue;
+    font-size: 28px;
+}
+
+
+main .cursos{
+
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 50px;  
+}
+
+main .cursos .curso1{
+    width: 300px;
+    height: 300px;
+    padding: 5px;
+    text-align: center;
+    font-size: 32px;
+    background-color: white;
+    border-radius: 10%;
+    padding-top: 45px;
+    box-shadow: 0px 4px 8px 0px blue;
+    background-color:  white; 
+    position: relative;
+}
+
+main .cursos .curso1 .convocatoria p{
+    text-align: center;
+    width: 150px;
+    height: auto;
+    position: absolute;
+    left: 75px;
+    height: auto;
+    bottom:  260px;
+    font-size: 20px;
+    background-color: blue;
+    margin-bottom: 15px;
+    border-radius: 5%;
+    color: white;
+    box-shadow: 0px 4px 8px 0px black;
+    
+}
+
+main .cursos .curso1  .dia{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    height: 100px;
+    width: 100%;
+    padding-bottom: 40px;
+    margin-bottom: 10px;
+    
+}
+
+main .cursos .curso1  .dia p{
+    width: 100%;
+    height: 0px;
+    text-align: center;
+    padding-left: 120px;
+    padding-bottom:30px ;
+    color: blue;
+    
+
+}
+main .cursos .curso1  .dia .numero{
+    color: red;
+    width: 100%;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    padding-right: 250px;
+    padding-bottom: 50px;
+    font-size: 50px;
+}
+
+main .cursos .curso1  .dia .numero span img{
+
+    width: 80px;
+    height: 80px;
+    margin-right: 50px;
+    padding-bottom: 0px;
+}
+
+main .cursos .curso1 .curso-tipo{
+    width: 100%;
+    height: auto;
+    padding-top: 15px;
+    color: black;
+    padding-left: 25px;
+    
+}
+
+
+main .cursos .curso1 .curso-tipo span img{
+    width: 40px;
+    height: 40px;
+    margin-left: 25px;
+}
+
+
+
+main .cursos .curso1 button{
+
+    position: relative;
+    width: 150px;
+    height: 50px;
+    border-radius: 20px;
+    top: 20px;
+    font-size: 20px;
+    color: white;
+    background-color: blue;
+    box-shadow: 0px 4px 8px 0px blue;
+    
+}
+
+
+
+/* Segunda convocatoria */
+
+main .cursos .curso2{
+    width: 300px;
+    height: 300px;
+    padding: 5px;
+    text-align: center;
+    font-size: 32px;
+    background-color: white;
+    border-radius: 10%;
+    padding-top: 45px;
+    box-shadow: 0px 4px 8px 0px blue;
+    background-color:  white;
+    position: relative;
+   
+    
+}
+
+main .cursos .curso2 .convocatoria p{
+    text-align: center;
+    width: 150px;
+    height: auto;
+    position: absolute;
+    left: 75px;
+    height: auto;
+    bottom: 260px;
+    font-size: 20px;
+    background-color: blue;
+    margin-bottom: 15px;
+    border-radius: 5%;
+    color: white;
+    box-shadow: 0px 4px 8px 0px black;
+    
+}
+
+main .cursos .curso2  .dia{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    height: 100px;
+    width: 100%;
+    padding-bottom: 40px;
+    margin-bottom: 10px;
+    
+}
+
+main .cursos .curso2  .dia p{
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    padding-left: 120px;
+    padding-bottom:30px ;
+    color: blue;
+    
+
+}
+
+main .cursos .curso2  .dia .numero{
+    color: red;
+    width: 100%;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    padding-right: 250px;
+    padding-bottom: 50px;
+    font-size: 50px;
+}
+
+
+main .cursos .curso2  .dia .numero span img{
+
+    width: 80px;
+    height: 80px;
+    margin-right: 50px;
+    padding-bottom: 0px;
+}
+
+
+main .cursos .curso2 .curso-tipo{
+    width: 100%;
+    height: auto;
+    padding-top: 15px;
+    color: red;
+    
+}
+
+main .cursos .curso2 .curso-tipo span img{
+    width: 40px;
+    height: 40px;
+    margin-left: 25px;
+}
+
+
+
+main .cursos .curso2 .curso-tipo .online{
+    
+    color: black;
+}
+
+main .cursos .curso2 button{
+
+    position: relative;
+    width: 150px;
+    height: 50px;
+    border-radius: 20px;
+    top: 20px;
+    font-size: 20px;
+    color: white;
+    background-color: blue;
+    box-shadow: 0px 4px 8px 0px blue;
+    
+}
+
+
+/* Tercera Convocatoria */
+
+main .cursos .curso3{
+    width: 300px;
+    height: 300px;
+    padding: 5px;
+    text-align: center;
+    font-size: 32px;
+    background-color: white;
+    border-radius: 10%;
+    padding-top: 45px;
+    box-shadow: 0px 4px 8px 0px blue;
+    background-color:  white;
+    position: relative;
+}
+
+main .cursos .curso3 .convocatoria p{
+    text-align: center;
+    width: 150px;
+    height: auto;
+    position: absolute;
+    right: 75px;
+    height: auto;
+    bottom: 260px;
+    font-size: 20px;
+    background-color: blue;
+    margin-bottom: 15px;
+    border-radius: 5%;
+    color: white;
+    box-shadow: 0px 4px 8px 0px black;
+    
+}
+
+main .cursos .curso3  .dia{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    height: 100px;
+    width: 100%;
+    padding-bottom: 40px;
+    margin-bottom: 10px;
+    
+}
+
+main .cursos .curso3  .dia p{
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    padding-left: 120px;
+    padding-bottom:30px ;
+    color: blue;
+    
+
+}
+
+
+main .cursos .curso3  .dia .numero{
+    color: red;
+    width: 100%;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    padding-right: 250px;
+    padding-bottom: 50px;
+    font-size: 50px;
+}
+
+
+main .cursos .curso3  .dia .numero span img{
+
+    width: 80px;
+    height: 80px;
+    margin-right: 60px;
+    padding-bottom: 0px;
+}
+
+main .cursos .curso3 .curso-tipo{
+    width: 100%;
+    height: auto;
+    padding-top: 15px;
+    color: black;
+    
+}
+
+main .cursos .curso3 .curso-tipo span img{
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+   
+}
+
+
+
+main .cursos .curso3 .curso-tipo .presencial{
+    
+    color: red;
+}
+
+main .cursos .curso3 button{
+
+    position: relative;
+    width: 150px;
+    height: 50px;
+    border-radius: 20px;
+    top: 20px;
+    font-size: 20px;
+    color: white;
+    background-color: blue;
+    box-shadow: 0px 4px 8px 0px blue;
+    
+}
+
+
+footer{
+    width: 100%;
+    background-color: blue;
+    height: 150px;
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+}
+
+footer .redes{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    
+    justify-content: space-evenly
+    
+    
+}
+
+
+
+footer .redes h3{
+    color: white;
+    text-align: center;
+    width: 100%;
+    padding-right: 190px;
+    padding-top: 15px;
+    font-size: 14px;
+}
+
+
+footer .redes .instagram a span{
+    width: 50px;
+    height: 50px;
+    background-image: url('https://image.canva.com/u2xFUzJqAHOe4ml6M6uhfg%3D%3D/cSjL9yfxXuSilt0SqgPCBw%3D%3D%3AODAweDgwMA%3D%3D.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQYCGKMUH25PN7VSL%2F20211019%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20211019T191123Z&X-Amz-Expires=4694&X-Amz-Signature=83a12713b34cf1cf7702a7048afe4f08c909566afe886519f151934277ff487b&X-Amz-SignedHeaders=host&response-expires=Tue%2C%2019%20Oct%202021%2020%3A29%3A37%20GMT');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-top: 50px;
+    position: absolute;
+}
+
+
+
+
+footer .redes .facebook a span{
+    width: 50px;
+    height: 50px;
+    background-image: url('https://logodix.com/logo/4060.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-top: 50px;
+    position: absolute;
+
+}
+
+footer .redes .twitter span{
+    width: 50px;
+    height: 50px;
+    background-image: url('https://marketplace.canva.com/De4q0/MAEeJXDe4q0/1/tl/canva-flat-fill-twitter-icon-MAEeJXDe4q0.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-top: 50px;
+    position: absolute;
+    
+
+}
+
+footer .copyright{
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    padding-top: 60px;
+    font-size: 20px;
+    color: white;
+    border-right: 3px solid black;
+}
+
+
+
+.contenedor-contacto{
+    width: 100%;
+    height: 700px;
+    padding-bottom: 220px ;
+    position: relative;
+}
+
+.contenedor-contacto .contacto{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    
+    
+}
+.contenedor-contacto  .informacion{
+    width: 100%;
+    height: auto;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+
+.contenedor-contacto .contacto .telefono{
+    width: 400px;
+    height: 200px;
+    background-color: white;
+    font-size: 35px;
+    box-shadow: 0px 4px 8px 0px blue;
+    border-radius: 25px;
+    color: blue;
+    padding-top: 50px;
+    
+
+}
+
+.contenedor-contacto .contacto .telefono span img{
+
+    width: 40px;
+    height: 40px;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.contenedor-contacto .contacto .mail{
+    width: 400px;
+    height: 200px;
+    background-color: white;
+    color: blue;
+    font-size: 35px;
+    box-shadow: 0px 4px 8px 0px blue;
+    border-radius: 25px;
+    padding-top: 40px;
+    padding-bottom: 50px;
+    
+}
+.contenedor-contacto .contacto .mail span img{
+
+    width: 60px;
+    height: 60px;
+    margin-right: 10px
+    /* padding-top: 20px;
+    padding-right: 20px; */
+}
+
+.contenedor-contacto .contacto .mail .negrita{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    padding-right: 25px;
+}
+.contenedor-contacto .contacto .telefono .negrita{
+    color: black;
+    padding-left: 10px;
+    padding-bottom: 20px;
+}
+
+.mentores-contenedor{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.mentores-contenedor .mentores-texto{
+    width: 100vw;
+    height: 20vh;
+    text-align: center;
+    font-size: 20px;
+    border-bottom: 3px solid blue;
+    
+
+}
+
+.mentores-contenedor .mentores .mentor-lluis{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    border-bottom: 3px solid blue;
+}
+
+.mentores-contenedor .mentores .mentor-lluis .foto{
+    width: 50%;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.mentores-contenedor .mentores .mentor-lluis img{
+    width: 350px;
+    height: 350px;
+    border-radius: 50px;
+    
+}
+
+
+.mentores-contenedor .mentores .mentor-lluis .lluis-texto{
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 150px;
+    padding-right: 100px;
+}
+
+.mentores-contenedor .mentores .mentor-lluis .lluis-texto h3{
+    width: 100%;
+    height: auto;
+    font-size: 35px;
+    color: black;
+    margin-bottom: 10px;
+}
+
+.mentores-contenedor .mentores .mentor-lluis .lluis-texto p{
+    width: 100%;
+    height: auto;
+    font-size: 20px;
+    color: blue;
+
+}
+
+/* Mentor Alberto */
+
+.mentores-contenedor .mentores .mentor-alberto{
+    width: 100vw;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    border-bottom: 3px solid blue;
+}
+
+.mentores-contenedor .mentores .mentor-alberto .foto{
+    width: 50vw;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.mentores-contenedor .mentores .mentor-alberto img{
+    width: 350px;
+    height: 350px;
+    border-radius: 50px;
+    
+}
+
+
+.mentores-contenedor .mentores .mentor-alberto .alberto-texto{
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 100px;
+    padding-right: 120px;
+}
+
+.mentores-contenedor .mentores .mentor-alberto .alberto-texto h3{
+    width: 100%;
+    height: auto;
+    font-size: 35px;
+    color: black;
+    margin-bottom: 10px;
+}
+
+.mentores-contenedor .mentores .mentor-alberto .alberto-texto p{
+    width: 100%;
+    height: auto;
+    font-size: 20px;
+    color: blue;
+}
+
+/* Mentor fernando */
+
+.mentores-contenedor .mentores .mentor-fernando{
+    width: 100vw;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    border-bottom: 3px solid blue;
+}
+
+.mentores-contenedor .mentores .mentor-fernando .foto{
+    width: 50vw;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.mentores-contenedor .mentores .mentor-fernando img{
+    width: 350px;
+    height: 350px;
+    border-radius: 50px;
+    
+}
+
+
+.mentores-contenedor .mentores .mentor-fernando .fernando-texto{
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 150px;
+    padding-right: 120px;
+}
+
+.mentores-contenedor .mentores .mentor-fernando .fernando-texto h3{
+    width: 100%;
+    height: auto;
+    font-size: 35px;
+    color: black;
+    margin-bottom: 10px;
+}
+
+.mentores-contenedor .mentores .mentor-fernando .fernando-texto p{
+    width: 100%;
+    height: auto;
+    font-size: 20px;
+    color: blue;
+}
+
+
+.contenedor-alumnos{
+    width: 100%;
+    height: auto;
+}
+
+.contenedor-alumnos .tabla{
+    width: 80%;
+    margin: 0 auto;
+    height: 300px;
+    padding-right: 100px;
+    padding-left: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color:white;
+    margin-bottom: 30px;
+    border-radius: 20px;
+    border:3px solid blue;
+    
+}
+
+.contenedor-alumnos .tabla thead{
+    background-color: blue;
+    font-size: 25px;
+    color: white;
+    margin-bottom: 100px;
+}
+
+.contenedor-alumnos .tabla tbody{
+    font-size: 20px;
+    color: blue;
+    text-align: center;
+}
+
+.contenedor-alumnos .lista{
+    width: 100%;
+    height: auto;
+}
+
+.contenedor-alumnos  h3{
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    font-size: 32px;
+    color: blue;
+    margin: 30px;
+    margin-bottom: 40px;
+    padding-top: 50px;
+}
+
+
+
+.contenedor-alumnos .lista {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    color: blue;
+    font-size: 30px;
+
+}
+
+.contenedor-alumnos .lista .azul{
+    color: black;
+    font-size: 20px;
+}
+
+.contenedor-alumnos .lista  .html{
+    width: 450px;
+    height: 500px;
+    background-color: white;
+    padding-left: 150px;
+    padding-top: 20px;
+    border-radius: 25px;
+    font-size: 25px;
+    border:3px solid blue;
+    
+    
+}
+
+.contenedor-alumnos .lista .css{
+    width: 450px;
+    height: 580px;
+    background-color: white;
+    padding-left: 100px;
+    padding-top: 20px;
+    border-radius: 25px;
+    font-size: 25px;
+    border:3px solid blue;
+    
+    
+}
+
+.contenedor-formulario{
+    width: 100%;
+    height: auto;
+    padding: 50px;
+}
+
+.contenedor-formulario form{
+    width: 100%;
+    height: 100%;
+}
+
+.contenedor-formulario .informacion-personal .personal{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+}
+
+
+

@@ -1,0 +1,373 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    /*background-color: blanchedalmond;*/
+}
+header{
+
+    width: 100%;
+    height: 450px;
+    margin-top: 15px;
+
+}
+
+header nav{
+
+    width: 90%;
+    height: 50px;
+    margin: 5px;
+}
+
+header nav ul{
+    
+    list-style: none;
+    display: inline-flex;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid black;
+    background-color: gray;
+}
+
+header nav a{
+    text-decoration: none;
+    color: black;
+    padding-right: 10px;
+    font-size: 18px;
+}
+
+header .fondo{
+    width: 100%;
+    height: 280px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    background-image: url('./imagenes/background-image.jpg');
+    background-size: 1300px;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*position: relative;*/
+}
+
+header .logo{
+    width: 250px;
+    height: 50px;
+    position: absolute;
+    top: 30px;
+    /*position: absolute;
+    left: 740px;
+    bottom: 300px;*/
+
+}
+
+header .logo img{
+    width: 250px;
+    height: 200px;
+}
+
+header h1{
+    /*width: 600px;*/
+    height: 100px;
+    color: blanchedalmond;
+    /*position: absolute;
+    left: 660px;
+    top: 160px;*/
+    font-size: 85px;
+    padding-top: 55px;
+    
+
+}
+main{
+    width: 100%;
+    height: 500px;
+}
+
+main .fechas{
+    text-align: center;
+    font-size: 46px;
+    margin-bottom: 25px;
+}
+
+main .cursos{
+    /*position: absolute;
+    left: 240px;*/
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 65px;
+    width: 100%
+    
+    
+}
+
+main .curso1  div{
+    
+    display: inline-block;
+    /*position: relative;
+    left: 105px;*/
+    text-align: center;
+    
+}
+
+main .curso1 {
+    /*width: 1000px;*/
+    width: 40%;
+    border-bottom: 2px solid black ;
+    /*position: relative;
+    left: 150px;*/
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+main .curso2  div{
+    /*width: 200px;*/
+    display: inline-block;
+    /*position: relative;
+    left: 105px;*/
+    text-align: center;
+    
+}
+
+main .curso2 {
+    /*width: 1000px;*/
+    width: 40%;
+    border-bottom: 2px solid black ;
+    /*position: relative;
+    left: 150px;*/
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+main .curso3  div{
+    /*width: 200px;*/
+    display: inline-block;
+    /*position: relative;
+    left: 105px;*/
+    text-align: center;
+    
+}
+
+main .curso3 {
+    /*width: 1000px;*/
+    width: 40%;
+    border-bottom: 2px solid black ;
+    /*position: relative;
+    left: 150px;*/
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+
+
+main .cursos p{
+    font-size: 28px;
+    margin-right: 10px;
+    
+}
+
+main .numero p{
+    font-size: 64px;
+}
+main .cursos .numero{
+    margin-right: 50px;
+    width: 20px;
+}
+
+main .cursos .dia{
+    width: 20px;
+    padding: 0;
+    margin-right: 80px;
+}
+
+main .cursos .curso-tipo{
+    margin-right: 60px;
+}
+
+main .cursos button{
+    position: relative;
+    bottom: 20px;
+    width: 80px;
+    height: 40px;
+    margin-left: 0px;
+    
+}
+
+main .contacto{
+    width: 100%;
+    height: 100px;
+    display: inline-flex;
+    justify-content: center;
+}
+
+main .contacto h2{
+    width: auto;
+    text-align: center;
+    font-size: 52px;
+}
+
+main .informacion{
+    width: 100%;
+    height: auto;
+    display:  inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    font-size: 38px;
+}
+
+main .informacion div{
+    margin-bottom: 10px;
+}
+
+main .informacion .negrita{
+    font-weight: 900;
+    margin-right: 5px;
+}
+
+.negrita{
+    font-weight: 900;
+}
+
+main .informacion .telefono{
+    display: inline-flex;
+    justify-content: center;
+    
+
+}
+
+main .informacion .mail{
+    display: inline-flex;
+    justify-content: center;
+    
+
+}
+
+main .conocenos h2{
+    width: auto;
+    text-align: center;
+    font-size: 52px;
+}
+
+main .mentores-texto{
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    font-size: 28px;
+}
+
+
+main .mentores{
+    display: inline-flex;
+    justify-content: space-evenly;
+}
+
+main .mentores .mentor-lluis{
+    display: flex;
+    flex-direction: column;
+    width: 28%;
+    height: auto;
+    padding: 25px;
+    margin: 10px;
+}
+
+main .mentores .mentor-lluis img{
+
+    width: 250px;
+    min-height: 150px;
+    margin: 10px;
+    align-self: center;
+
+}
+
+main .mentores .mentor-lluis h3{
+
+    font-size: 28px;
+    text-align: center;
+    margin: 10px;
+}
+
+main .mentores .mentor-lluis p{
+
+    font-size: 20px;
+    text-align: center;
+    margin: 10px;
+}
+
+main .mentores .mentor-fernando{
+    display: flex;
+    flex-direction: column;
+    width: 28%;
+    height: auto;
+    padding: 25px;
+    margin: 10px;
+}
+
+main .mentores .mentor-fernando img{
+
+    width: 250px;
+    min-height: 150px;
+    margin: 10px;
+    align-self: center;
+    
+
+}
+
+main .mentores .mentor-fernando h3{
+
+    font-size: 28px;
+    text-align: center;
+    margin: 10px;
+}
+
+main .mentores .mentor-fernando p{
+
+    font-size: 20px;
+    text-align: center;
+    margin: 10px;
+}
+
+main .mentores .mentor-alberto{
+    display: flex;
+    flex-direction: column;
+    width: 28%;
+    height: auto;
+    padding: 25px;
+    margin: 10px;
+}
+
+main .mentores .mentor-alberto img{
+
+    width: 250px;
+    min-height: 150px;
+    margin: 10px;
+    align-self: center;
+
+}
+
+main .mentores .mentor-alberto h3{
+
+    font-size: 28px;
+    text-align: center;
+    margin: 10px;
+}
+
+main .mentores .mentor-alberto p{
+
+    font-size: 20px;
+    text-align: center;
+    margin: 10px;
+}
