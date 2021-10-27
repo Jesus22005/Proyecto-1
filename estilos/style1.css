@@ -159,6 +159,39 @@ header .fondo3{
     
 }
 
+header .fondo4{
+    display: flex;
+    align-items: flex-start;
+    justify-content: start;
+    padding-left: 150px;
+    width: 100%;
+    height: 700px;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: 100%;
+    background-color: blue;
+    border-top: 10px solid blue;
+    background-image: url('https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/styles/1200/public/media/image/2019/03/javascript.jpg?itok=gnWgoCTM')
+    
+}
+
+header .fondo5{
+    display: flex;
+    align-items: flex-start;
+    justify-content: start;
+    padding-left: 150px;
+    padding-top: 130px;
+    width: 100%;
+    height: 700px;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: 60%;
+    background-color: white;
+    border-top: 10px solid blue;
+    background-image: url('https://www.serfadu.com/wp-content/uploads/2020/10/Solicitud-enviada-con-exito-1024x415.png')
+    
+}
+
 
 
 
@@ -210,6 +243,20 @@ main .fechas-curso_mentores{
     height: 90px;
     text-align: center;
     padding-top: 10px;
+    border-radius: 5px;
+    color: blue;
+    font-size: 28px;
+}
+
+main .fechas-curso_contenedor{
+    background-color: blanchedalmond;
+    position: relative;
+    bottom: 80px;
+    left: 30px; 
+    width: 350px;
+    height: 90px;
+    text-align: center;
+    padding-top: 25px;
     border-radius: 5px;
     color: blue;
     font-size: 28px;
@@ -327,7 +374,15 @@ main .cursos .curso1 button{
     color: white;
     background-color: blue;
     box-shadow: 0px 4px 8px 0px blue;
-    
+}
+
+main .cursos  button a{
+    color: white;
+    text-decoration-line: none;
+}
+
+main .cursos button  a:hover{
+    border-bottom: white 1px solid;
 }
 
 
@@ -895,6 +950,7 @@ footer .copyright{
 .contenedor-alumnos{
     width: 100%;
     height: auto;
+
 }
 
 .contenedor-alumnos .tabla{
@@ -985,23 +1041,202 @@ footer .copyright{
     
 }
 
+
+.contenedor-alumnos .contenedor-horario{
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+}
+
+.contenedor-alumnos .contenedor-horario h3{
+    width: 100%;
+    font-size: 30px;
+    
+}
+
+
+.contenedor-alumnos .contenedor-horario .horario{
+    width: auto;
+    display: flex;
+    justify-content: center;
+    height: auto;
+    font-size: 20px;
+    background-color: white;
+    margin-bottom: 10px;
+    padding: 15px;
+    border-radius: 2%;
+    border:3px solid blue;
+    margin-bottom: 45px;
+
+
+}
+
 .contenedor-formulario{
     width: 100%;
     height: auto;
-    padding: 50px;
+    /* display: flex;
+    justify-content: center; */
+    
 }
 
 .contenedor-formulario form{
     width: 100%;
     height: 100%;
+    padding: 50px;
 }
 
-.contenedor-formulario .informacion-personal .personal{
+.contenedor-formulario .personal{
     width: 100%;
-    height: 500px;
+    height: 250px;
+    margin-bottom: 25px;
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+}
+
+.contenedor-formulario  h3{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 25px;
+    
+}
+
+.contenedor-formulario .personal .contenedor-personal{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
+    justify-content: center;
 }
 
 
 
+.contenedor-formulario  div {
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 30px;
+}
+
+.contenedor-formulario input{
+    height: 25px;
+    width: 40px;
+    font-size: 13px;
+    text-align: center;
+    text-transform: uppercase;
+    
+    
+}
+
+input:hover{
+    border: 3px solid black;
+}
+
+.contenedor-formulario label{
+    color: blue;
+    font-size: 20px;
+}
+
+.contenedor-formulario .grande{
+    width: 350px;
+    height: 25px;
+    margin-left: 10px;
+}
+.contenedor-formulario .pequeño{
+    width: 50px;
+    height: 25px;
+    margin-left: 10px;
+}
+
+.contenedor-formulario .mediano{
+    width: 120px;
+    height: 25px;
+    margin-left: 10px;
+}
+
+.contenedor-formulario .direccion{
+    width: 100%;
+    height: 200px;
+    margin-bottom: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+}
+
+
+
+.contenedor-formulario .mas-info{
+    width: 100%;
+    height: 300px;
+    margin-bottom: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.contenedor-formulario .mas-info div{
+    margin-bottom: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.contenedor-formulario .consulta{
+    width: 100%;
+    height:auto;
+    margin-bottom: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 30px;
+    padding-top: 20px;
+    
+}
+
+
+.contenedor-formulario .botones{
+    width: auto;
+    height: 50px;
+    margin-bottom: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.contenedor-formulario .botones .rojo{
+    background-color: red;
+    
+}
+
+.contenedor-formulario .botones input{
+    width: 150px;
+    height: 40px;
+    border-radius: 15px;
+    color: white;
+    background-color: blue;
+}
+
+textarea{
+    resize: none;
+    font-size: 14px;
+    padding: 10px;
+    font-style: italic;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+fieldset{
+    border: 1px blue solid;
+}
