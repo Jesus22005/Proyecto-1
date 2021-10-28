@@ -648,7 +648,7 @@ footer .redes h3{
 footer .redes .instagram a span{
     width: 50px;
     height: 50px;
-    background-image: url('https://image.canva.com/u2xFUzJqAHOe4ml6M6uhfg%3D%3D/cSjL9yfxXuSilt0SqgPCBw%3D%3D%3AODAweDgwMA%3D%3D.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQYCGKMUH25PN7VSL%2F20211019%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20211019T191123Z&X-Amz-Expires=4694&X-Amz-Signature=83a12713b34cf1cf7702a7048afe4f08c909566afe886519f151934277ff487b&X-Amz-SignedHeaders=host&response-expires=Tue%2C%2019%20Oct%202021%2020%3A29%3A37%20GMT');
+    background-image: url('https://logodix.com/logo/4288.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -1239,4 +1239,32 @@ textarea{
 
 fieldset{
     border: 1px blue solid;
+}
+
+@media (max-width: 1350px){
+
+    
+    header nav .barra a{
+        text-decoration: none;
+        font-size: 25px;
+        color: black;
+        margin: 30px;}
+
+        header nav .logo{
+            background-color: blanchedalmond;
+            position: absolute;
+            width: 250px;
+            height: 30s0px;
+            justify-content: start;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 32px;
+            color: blue;
+            left:  calc(50% - 620px);
+            padding-left: 40px;
+            top: 60px;
+            border-radius: 5%;
+            
+        }
+        
+    
 }
